@@ -14,13 +14,19 @@
 <body>
     <header>
         <div class="bg-image">
-            <nav class="hero-nav row">
-                <h1 class="logo"><a href="#">Flexbox</a></h1>
-                <ul class="main-nav">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Products</a></li>
-                    <li><button>Contact</button></li>
+            <nav class="top-nav">
+                <div>
+                    Coffee Roast - best coffee brand
+                </div>
+                <input id="menu-toggle" type="checkbox" />
+                <label class='menu-button-container' for="menu-toggle">
+                    <div class='menu-button'></div>
+                </label>
+                <ul class="menu">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">Contact</a></li>
                 </ul>
             </nav>
             <div class="hero-content column">
@@ -83,14 +89,19 @@
 
         </section>
         <footer class="row flex-text-center">
-            <i class="icofont-email"> xyz@xyz.com</i>
-            <a href="#"><i class="icofont-facebook"></i></a>
-            <a href=""><i class="icofont-brand-youtube"></i></a>
-            <a href=""><i class="icofont-twitter"></i></a>
-            <a href=""><i class="icofont-pinterest"></i></a>
-            <a href=""><i class="icofont-instagram"></i></a>
+            <div class="column">
+                <i class="icofont-email"> xyz@xyz.com</i>
+            </div>
+            <div class="column socials">
+                <div>
+                    <a href="#"><i class="icofont-facebook"></i></a>
+                    <a href=""><i class="icofont-brand-youtube"></i></a>
+                    <a href=""><i class="icofont-twitter"></i></a>
+                    <a href=""><i class="icofont-pinterest"></i></a>
+                    <a href=""><i class="icofont-instagram"></i></a>
+                </div>
 
-
+            </div>
 
 
         </footer>
