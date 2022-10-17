@@ -260,10 +260,25 @@ footer {
     padding: 1rem 0rem;
 }
 
-footer i {
-    padding: 0.5rem;
-}
-
 .socials {
     flex: 2;
+}
+
+i {
+    margin: 0 1rem 1rem 1rem;
+
+}
+
+.contact,
+.social-items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-basis: auto;
+}
+
+@media(min-width: 700px) {
+    .socials {
+        text-align: end;
+    }
 }
